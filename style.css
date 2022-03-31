@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins' sans-serif;
+}
+
+.center{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding:0 2%;
+}
+
+
+.header{
+	background-color: white;
+	height: 200px;
+	padding: 20px 0;
+	border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+
+.logo{
+
+	color: blue;
+}
+
+.menu{
+	padding-top: -10px;
+	width: 125%;
+	
+}
+
+.menu a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right:20px;
+}
+
+.menu a:hover{
+
+	color: #007bff;
+}
+
+.menu .btn-menu{
+	background-color: #007bff;
+	display: inline-block;
+	padding:8px 16px ;
+	color: white;
+	border-radius: 6px;
+
+}
+
+.menu .btn-menu:hover{
+	background-color: #004080;
+	color: white;
+}
+
+
+.html,.body{
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+
+.firtimg{
+	
+	right: 90px;
+	top: -100px;
+	border-radius: 10%;
+	border:2px solid #000000;
+	
+}
+
+.social-media img{
+	margin: 10px 5;
+}
+
+.sobren{
+
+	padding-top: 80px;
+}
+
+.sobrem{
+
+	padding-top: 50px;
+}
+
+.sobrev{
+
+	margin-right: 25px;
+}
+.texto-sobre p{
+	margin: 20px 0;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	max-width: 500px;
+	
+}
+.imgbr {
+
+	border:2px solid #000000;
+
+}
+
+.titulo{
+
+	right: 10px;
+}
+
+.contact{
+
+	width: 50%;
+}
